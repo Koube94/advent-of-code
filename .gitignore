@@ -1,0 +1,37 @@
+.# Target directory
+ /target/
+
+ # Build artifacts
+ **/*.rs.bk
+
+ # Dependency directory
+ /.cargo/
+
+ # IDE and editor files
+ /.idea/
+ /.vscode/
+ /*.iml
+
+ # Generated files
+ *.log
+ *.lock
+ *.tmp
+
+ # Debugging and profiling files
+ *.profraw
+
+ # Ignore output binaries
+ /*.exe
+ /*.out
+ /*.o
+ /*.d
+ /*.so
+ /*.rlib
+ /*.a
+
+ # Ignore text files
+ *.txt
+
+ # Other OS-specific files
+ .DS_Store
+ Thumbs.db
